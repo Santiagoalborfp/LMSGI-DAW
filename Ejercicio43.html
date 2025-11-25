@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla</title>
+    <meta name="description" content="Esto es la descripción de mi página web">
+    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
+    <meta name="author" content="Santiago Herrera">
+    <meta name="application-name" content="Plantilla.html">
+    <meta name="generator" content="VSCode">
+</head>
+<body>
+    <h2>Formulario de registro</h2>
+    <form action="/send/" method="post">
+        <label>Nombre:
+            <input type="text" name="Nombre"><br>
+        </label><br>
+        <label>Apellidos:
+            <input type="text" name="Apellidos">
+        </label><br><br>
+        <label>Sexo:
+            <input type="radio" name="Sexo" value="Hombre"> hombre
+            <input type="radio" name="Sexo" value="mujer"> mujer
+        </label>
+        <label><br><br>Correo:
+            <input type="email" name="Correo">
+        </label><br><br>
+        Población
+        <label>
+            <select name="Poblacion">
+                <option value="1">Alicante</option>
+                <option value="2">Castellon</option>
+                <option value="3">Valencia</option>
+            </select>
+        </label><br><br>
+        Descripción
+        <textarea name="Descripcion" cols="30" rows="8"></textarea><br><br>
+        <input type="checkbox"> Deseo recibir información sobre novedades y ofertas <br><br>
+        <input type="checkbox"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobrte protección de datos <br><br>
+        <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
